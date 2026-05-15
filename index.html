@@ -12,6 +12,9 @@
             --purple-dark: #3b0764;    /* Найтемніший зверху */
             --purple-mid: #581c87;     /* Середній у центрі */
             --purple-light: #7e22ce;   /* Насичений світлий знизу */
+            --navy-dark: #0D1A63;
+            --navy-mid: #1A2CA3;
+            --navy-light: #2845D6;
             --accent-yellow: #facc15;
             --cloud-fill: #fefce8;
             --text-color: #1e1b4b;
@@ -40,12 +43,12 @@
             /* Трирівневий градієнт фону */
             background: linear-gradient(
                 to bottom, 
-                var(--purple-dark) 0%, 
-                var(--purple-dark) 30%, 
-                var(--purple-mid) 30%, 
-                var(--purple-mid) 65%, 
-                var(--purple-light) 65%, 
-                var(--purple-light) 100%
+                var(--navy-dark) 0%, 
+                var(--navy-dark) 30%, 
+                var(--navy-mid) 30%, 
+                var(--navy-mid) 65%, 
+                var(--navy-light) 65%, 
+                var(--navy-light) 100%
             );
         }
 
@@ -90,7 +93,7 @@
         .label-badge {
             margin-top: 13px;
             background: var(--accent-yellow);
-            color: var(--purple-dark);
+            color: var(--navy-dark);
             padding: 10px 30px;
             border-radius: 50px;
             font-family: var(--font-kids);
@@ -198,8 +201,8 @@
         }
 
         /* SVG Хвилі для розділення кольорів */
-        .wave-path { fill: var(--purple-mid); }
-        .wave-path-2 { fill: var(--purple-light); }
+        .wave-path { fill: var(--navy-mid); }
+        .wave-path-2 { fill: var(--navy-light); }
 
         @media print {
             .book-canvas { transform: none; }
@@ -272,7 +275,7 @@
                 </div>
 
             <div class="label-badge">Навчальний посібник</div>
-            <div class="book-count">Перший курс: Тема 1</div>
+            <div class="book-count">Перший курс: Тема 2</div>
 
             <div class="hero-title">
                 <div class="title-word-top">СЕКРЕТИ</div>
